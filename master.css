@@ -1,0 +1,63 @@
+body{
+  background-image: url(unnamed.jpg);
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 100px;
+}
+.here1{
+  margin-top: -30px;
+  height: 30px;
+  width: 250px;
+  border:none;
+  border-radius: 20px;
+}
+.image{
+  position: relative;
+  margin: 40px;
+}
+.input{
+  border-radius: 9px;
+  width: 280px;
+  height: 28px;
+  border: none;
+  text-align: center;
+}
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal-content{
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 36px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  color:black;
+}
+.text
+{
+  color: white;
+  font-size: 20px;
+}
+.insider{
+  color:black;
+}
